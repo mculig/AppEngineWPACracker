@@ -161,7 +161,7 @@ public class Master extends HttpServlet {
 		
 		Entity resultEntity = new Entity("result", MIC);
 		
-		Result result=new Result(fileStrings.length,0,0,null);
+		Result result=new Result(fileStrings.length,0,0,"N/A");
 		
 		resultEntity.setProperty("DictionaryEntries", result.DictionaryEntries);
 		resultEntity.setProperty("EntriesChecked", result.EntriesChecked);
